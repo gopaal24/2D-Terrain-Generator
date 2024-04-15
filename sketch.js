@@ -16,7 +16,7 @@ let treeMap;
 let zoomFactor = 200;
 
 function setup() {
-  createCanvas(1000, 1000);
+  createCanvas(window.innerWidth, window.innerHeight);
   noiseDetail(9, 0.5)
   waterMap = new TerrainType(
     0.2,
